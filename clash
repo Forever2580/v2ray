@@ -5,243 +5,316 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://t.me/feixiang7524, server: 116.129.254.78, port: 63078, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 116.129.254.78}, udp: true}
-  - {name: Tg@feixiang7524||节点_1, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_2, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_3, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_4, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_5, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_6, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_7, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_8, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_9, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_10, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_11, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_12, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_13, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_14, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_15, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_16, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_17, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_18, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_19, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_20, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_21, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_22, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_23, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_24, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_25, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_26, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_27, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_28, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_29, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_30, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_31, server: nnriepl.ed-novas.com, port: 25584, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_32, server: iepl10.dcnode.me, port: 10050, type: ss, cipher: aes-128-gcm, password: 2daf156a-b9ee-4671-913a-4339ddd39021, udp: true}
-  - {name: Tg@feixiang7524||节点_33, server: dyhkcmi.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_34, server: anyhkhkt.dynamic-dns.net, port: 10018, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_35, server: vollcloudcmicjb1.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_36, server: hkceracmi.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_37, server: hkcmi300m.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_38, server: vollcloudcmicjb2.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_39, server: gg03.nfeng6.pp.ua, port: 63086, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: gg03.nfeng6.pp.ua}, udp: true}
-  - {name: Tg@feixiang7524||节点_40, server: dyhkcmi300m.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_41, server: hkcmi.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_42, server: gy.moonfree.top, port: 17252, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_43, server: dx.ed-novas.com, port: 22093, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_44, server: dx.ed-novas.com, port: 22133, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_45, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_46, server: zgao.xyz, port: 443, type: trojan, password: nsTcmFBI, sni: zgao.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_47, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 98672ce2-03ff-4309-94b6-65a6c04d8f25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Tg@feixiang7524||节点_48, server: dx.ed-novas.com, port: 22098, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_49, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_50, server: gy.moonfree.top, port: 17252, type: vmess, uuid: eeecea9e-c1d4-4717-ba60-972684e3cfa4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gy.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_51, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_52, server: dx.ed-novas.com, port: 22109, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_53, server: gy.moonfree.top, port: 17253, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb2.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_54, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_55, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_56, server: dx.ed-novas.com, port: 22137, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_57, server: dx.ed-novas.com, port: 22092, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_58, server: c66s5.jamjams.net, port: 13531, type: vmess, uuid: d3b6e3f6-1a5e-4a46-8858-6f9ac2f0e90c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_59, server: dx.ed-novas.com, port: 22103, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_60, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_61, server: dx.ed-novas.com, port: 22016, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_62, server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sh.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_63, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_64, server: dx.ed-novas.com, port: 22130, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_65, server: hn.fuzzyng.com, port: 80, type: vmess, uuid: 4b198a48-b1eb-4b8f-8431-33b7f9dac581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
-  - {name: Tg@feixiang7524||节点_66, server: dx.ed-novas.com, port: 22015, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_67, server: shcm.pdjc.cc, port: 42000, type: trojan, password: 9337f0d6-c004-4e14-8d50-c944558ed322, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_68, server: dx.ed-novas.com, port: 22145, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_69, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_70, server: dx.ed-novas.com, port: 22037, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_71, server: dx.ed-novas.com, port: 22138, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_72, server: dx.ed-novas.com, port: 22127, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_73, server: dx.ed-novas.com, port: 22124, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_74, server: zappienewzealand.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_75, server: dx.ed-novas.com, port: 22090, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_76, server: dx.ed-novas.com, port: 22061, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_77, server: dx.ed-novas.com, port: 22101, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_78, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_79, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_80, server: dx.ed-novas.com, port: 22071, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_81, server: dx.ed-novas.com, port: 22132, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_82, server: dx.ed-novas.com, port: 22128, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_83, server: dx.ed-novas.com, port: 22104, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_84, server: dx.ed-novas.com, port: 22139, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_85, server: dx.ed-novas.com, port: 22029, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_86, server: dx.ed-novas.com, port: 22035, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_87, server: dx.ed-novas.com, port: 22057, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_88, server: dx.ed-novas.com, port: 22094, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_89, server: dx.ed-novas.com, port: 22009, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_90, server: dx.ed-novas.com, port: 22060, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_91, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_92, server: dx.ed-novas.com, port: 22134, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_93, server: dx.ed-novas.com, port: 22135, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_94, server: dx.ed-novas.com, port: 22043, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_95, server: dx.ed-novas.com, port: 22008, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_96, server: dx.ed-novas.com, port: 22030, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_97, server: dx.ed-novas.com, port: 22054, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_98, server: dx.ed-novas.com, port: 22051, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_99, server: dx.ed-novas.com, port: 22052, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_100, server: dx.ed-novas.com, port: 22006, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_101, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_102, server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: mDmaAWoWXB, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_103, server: dx.ed-novas.com, port: 22041, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_104, server: dx.ed-novas.com, port: 22018, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_105, server: serverititaly.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_106, server: dx.ed-novas.com, port: 22002, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_107, server: dx.ed-novas.com, port: 22021, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_108, server: dx.ed-novas.com, port: 22040, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_109, server: dx.ed-novas.com, port: 22067, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_110, server: dx.ed-novas.com, port: 22019, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_111, server: dx.ed-novas.com, port: 22125, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_112, server: dx.ed-novas.com, port: 22005, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_113, server: hcm.fuzzyng.com, port: 80, type: vmess, uuid: 4b198a48-b1eb-4b8f-8431-33b7f9dac581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
-  - {name: Tg@feixiang7524||节点_114, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_115, server: dx.ed-novas.com, port: 22112, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_116, server: dx.ed-novas.com, port: 22077, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_117, server: dx.ed-novas.com, port: 22107, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_118, server: netceterauk.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_119, server: us.vless.fun, port: 443, type: trojan, password: password, sni: us.vless.fun, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_120, server: dx.ed-novas.com, port: 22084, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_121, server: dx.ed-novas.com, port: 22097, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_122, server: dx.ed-novas.com, port: 22143, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_123, server: dx.ed-novas.com, port: 22020, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_124, server: dx.ed-novas.com, port: 22053, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_125, server: dx.ed-novas.com, port: 22126, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_126, server: dx.ed-novas.com, port: 22059, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_127, server: dx.ed-novas.com, port: 22106, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_128, server: dx.ed-novas.com, port: 22017, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_129, server: dx.ed-novas.com, port: 22007, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_130, server: nexuspk.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_131, server: bwgnl.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_132, server: dx.ed-novas.com, port: 22049, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_133, server: dx.ed-novas.com, port: 22068, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_134, server: dx.ed-novas.com, port: 22121, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_135, server: dx.ed-novas.com, port: 22066, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_136, server: oneproviderpt.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_137, server: cdn11.hutaojie.xyz, port: 443, type: vmess, uuid: 25b1cd43-eb36-4fa7-aeaa-8195675b5aca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /A7QDiY, ws-headers: {Host: cdn11.hutaojie.xyz}, udp: true}
-  - {name: Tg@feixiang7524||节点_138, server: ediscroatia.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_139, server: dx.ed-novas.com, port: 22069, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_140, server: dx.ed-novas.com, port: 22062, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_141, server: dx.ed-novas.com, port: 22042, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_142, server: dx.ed-novas.com, port: 22011, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_143, server: dx.ed-novas.com, port: 22022, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_144, server: dx.ed-novas.com, port: 22048, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_145, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_146, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vjp3.0bad.com}, udp: true}
-  - {name: Tg@feixiang7524||节点_147, server: dx.ed-novas.com, port: 22117, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_148, server: dx.ed-novas.com, port: 22064, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_149, server: dx.ed-novas.com, port: 22111, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_150, server: oz.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_151, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_152, server: dx.ed-novas.com, port: 22140, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_153, server: dx.ed-novas.com, port: 22118, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_154, server: dx.ed-novas.com, port: 22088, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_155, server: lightnodebangladesh.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_156, server: dx.ed-novas.com, port: 22014, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_157, server: dx.ed-novas.com, port: 22013, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_158, server: dx.ed-novas.com, port: 22076, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_159, server: dx.ed-novas.com, port: 22023, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_160, server: gg02.nfeng6.pp.ua, port: 63028, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg02.nfeng6.pp.ua}, udp: true}
-  - {name: Tg@feixiang7524||节点_161, server: dx.ed-novas.com, port: 22039, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_162, server: dx.ed-novas.com, port: 22033, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_163, server: dx.ed-novas.com, port: 22147, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_164, server: dx.ed-novas.com, port: 22136, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_165, server: dx.ed-novas.com, port: 22085, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_166, server: gg01.nfeng6.pp.ua, port: 63086, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
-  - {name: Tg@feixiang7524||节点_167, server: dx.ed-novas.com, port: 22120, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_168, server: dx.ed-novas.com, port: 22086, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_169, server: dx.ed-novas.com, port: 22012, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_170, server: dx.ed-novas.com, port: 22105, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_171, server: nexusbytesnl.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_172, server: dx.ed-novas.com, port: 22034, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_173, server: dx.ed-novas.com, port: 22119, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_174, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_175, server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: f0de3134-aef4-45b5-a135-3a82321bbac6, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_176, server: dx.ed-novas.com, port: 22091, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_177, server: dx.ed-novas.com, port: 22082, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_178, server: dx.ed-novas.com, port: 22032, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_179, server: dx.ed-novas.com, port: 22070, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_180, server: nearoutehk.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_181, server: dx.ed-novas.com, port: 22087, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_182, server: dx.ed-novas.com, port: 22122, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_183, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: Tg@feixiang7524||节点_184, server: dx.ed-novas.com, port: 22113, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_185, server: friendhostingczech.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_186, server: cloudpapkenya.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_187, server: gg03.nfeng6.pp.ua, port: 63028, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg03.nfeng6.pp.ua}, udp: true}
-  - {name: Tg@feixiang7524||节点_188, server: oraclejeddahamd2.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_189, server: dx.ed-novas.com, port: 22044, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_190, server: friendhostingbg.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_191, server: dx.ed-novas.com, port: 22081, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_192, server: dx.ed-novas.com, port: 22108, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_193, server: edisslovenia.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_194, server: pqslovakia.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_195, server: dx.ed-novas.com, port: 22031, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_196, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: Tg@feixiang7524||节点_197, server: donl.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_198, server: dx.ed-novas.com, port: 22123, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_199, server: dx.ed-novas.com, port: 22110, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_200, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
-  - {name: Tg@feixiang7524||节点_201, server: alwyzonvienna.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_202, server: dx.ed-novas.com, port: 22144, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_203, server: dx.ed-novas.com, port: 22003, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_204, server: dx.ed-novas.com, port: 22001, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_205, server: dx.ed-novas.com, port: 22075, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_206, server: edgevirtmiami.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_207, server: awsbahrain.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_208, server: bangmodthailand.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_209, server: dx.ed-novas.com, port: 22099, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_210, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_211, server: dx.ed-novas.com, port: 22131, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_212, server: dx.ed-novas.com, port: 22142, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_213, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_214, server: dx.ed-novas.com, port: 22000, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_215, server: edisnorthmacedonia.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_216, server: dx.ed-novas.com, port: 22114, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_217, server: serverspacebelarus.ednovas.org, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_218, server: 1strentaljp1.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_219, server: gg01.nfeng6.pp.ua, port: 63028, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gg01.nfeng6.pp.ua}, udp: true}
-  - {name: Tg@feixiang7524||节点_220, server: dx.ed-novas.com, port: 22047, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_221, server: oz.moonfree.top, port: 443, type: vmess, uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: Tg@feixiang7524||节点_222, server: dx.ed-novas.com, port: 22078, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_223, server: haziromania.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_224, server: dx.ed-novas.com, port: 22046, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_225, server: friendhostinglatvia.ednovas.net, port: 443, type: vmess, uuid: 3be60669-ef64-439b-8574-f1780c2f31c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ednovas, ws-headers: {Host: t.me/mengge88888888}, udp: true}
-  - {name: Tg@feixiang7524||节点_226, server: 116.129.254.78, port: 63087, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me.vpnhat}, udp: true}
-  - {name: Tg@feixiang7524||节点_227, server: 116.129.254.65, port: 63086, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me.vpnhat}, udp: true}
-  - {name: Tg@feixiang7524||节点_228, server: 116.129.254.78, port: 63087, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me.vpnhat}, udp: true}
-  - {name: Tg@feixiang7524||节点_229, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_230, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_231, server: 159.27.115.21, port: 63078, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.27.115.21}, udp: true}
-  - {name: Tg@feixiang7524||节点_232, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_233, server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb, sni: az.az-bgp.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_234, server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点_235, server: 116.129.254.65, port: 63086, type: vmess, uuid: c4630fde-3be4-32a5-87bb-01a0dfe5f9a1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me.vpnhat}, udp: true}
-  - {name: 有效期：2022-12-31, server: 159.27.115.21, port: 63078, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.27.115.21}, udp: true}
+  - {name: https://t.me/feixiang7524, server: hcm.fuzzyng.com, port: 80, type: vmess, uuid: 4b198a48-b1eb-4b8f-8431-33b7f9dac581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/fuzzyng?ed=2048", ws-headers: {Host: fuzzyng.akamaized.net}, udp: true}
+  - {name: Tg@feixiang7524||节点_1, server: hnyd.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_2, server: hn.dxmax2.com, port: 41203, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_3, server: hnyd.xxcv.cc, port: 20150, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_4, server: gzyd1.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_5, server: hn.dxmax2.com, port: 12581, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_6, server: gy.anoob.cc, port: 43909, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.anoob.cc}, udp: true}
+  - {name: Tg@feixiang7524||节点_7, server: gzyd2.xxcv.cc, port: 20150, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_8, server: hn.dxmax2.com, port: 17207, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_9, server: gkdcm.gkdnode.top, port: 21812, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_10, server: gy.feethree.top, port: 33950, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_11, server: gzyd1.xxcv.cc, port: 20090, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_12, server: gzyd2.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_13, server: gzyd1.xxcv.cc, port: 20100, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_14, server: hn.dxmax2.com, port: 33400, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_15, server: gzyd1.xxcv.cc, port: 20150, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_16, server: gy.hofhasharon.org, port: 37019, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_17, server: gzyd1.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_18, server: 120.241.236.152, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_19, server: bgp.hofhasharon.org, port: 38008, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_20, server: 120.241.236.152, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_21, server: gkdcu.gkdnode.top, port: 21808, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_22, server: gkdcm.gkdnode.top, port: 21813, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_23, server: gzyd2.xxcv.cc, port: 20100, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_24, server: 120.241.236.150, port: 51103, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_25, server: gkdcm.gkdnode.top, port: 21808, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_26, server: gy.anoob.cc, port: 47402, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlon.tk}, udp: true}
+  - {name: Tg@feixiang7524||节点_27, server: hn.dxmax2.com, port: 33402, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_28, server: 120.241.236.150, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_29, server: 120.241.236.150, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_30, server: gzyd1.xxcv.cc, port: 20020, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_31, server: hnyd.xxcv.cc, port: 20100, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_32, server: gzyd1.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_33, server: lt.feethree.top, port: 25105, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloan.gq}, udp: true}
+  - {name: Tg@feixiang7524||节点_34, server: gkdcm.gkdnode.top, port: 21807, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_35, server: hn.dxmax2.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_36, server: hnyd.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_37, server: gy.hofhasharon.org, port: 37013, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_38, server: gzyd.qlyun.xyz, port: 18630, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_39, server: gy.hofhasharon.org, port: 37008, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_40, server: gy.hofhasharon.org, port: 37012, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_41, server: bgp.hofhasharon.org, port: 38007, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_42, server: gkdcm.gkdnode.top, port: 21806, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_43, server: gzyd2.xxcv.cc, port: 20010, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_44, server: hnyd.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_45, server: 120.241.236.150, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_46, server: gzyd1.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_47, server: gzyd2.xxcv.cc, port: 20110, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_48, server: 120.241.236.150, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_49, server: gzyd.qlyun.xyz, port: 23432, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_50, server: hn.dxmax2.com, port: 17202, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_51, server: hn.dxmax2.com, port: 17211, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_52, server: gzyd2.xxcv.cc, port: 20130, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_53, server: gy.feethree.top, port: 33530, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_54, server: gy.anoob.cc, port: 15250, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.gq}, udp: true}
+  - {name: Tg@feixiang7524||节点_55, server: hn.dxmax2.com, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_56, server: lt.feethree.top, port: 53611, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: lt.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_57, server: gkdcm.gkdnode.top, port: 21811, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_58, server: gy.feethree.top, port: 65215, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_59, server: gy3.anoob.icu, port: 20789, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy3.anoob.icu}, udp: true}
+  - {name: Tg@feixiang7524||节点_60, server: 120.241.236.152, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_61, server: gy.anoob.cc, port: 40409, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocm.gq}, udp: true}
+  - {name: Tg@feixiang7524||节点_62, server: gy3.anoob.icu, port: 36847, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: gy3.anoob.icu}, udp: true}
+  - {name: Tg@feixiang7524||节点_63, server: iepl.qimengsdf.ml, port: 38848, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_64, server: gkdcu.gkdnode.top, port: 21823, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_65, server: hn.dxmax2.com, port: 36001, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_66, server: gkdcm.gkdnode.top, port: 21811, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_67, server: gy.hofhasharon.org, port: 37005, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_68, server: 120.241.236.150, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_69, server: hnyd.xxcv.cc, port: 20020, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_70, server: iplc.qimengsdf.ml, port: 26728, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_71, server: 120.241.236.152, port: 51103, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_72, server: iepl.qimengsdf.ml, port: 37708, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_73, server: gy.hofhasharon.org, port: 37018, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_74, server: gkdcm1.gkdnode.top, port: 21806, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_75, server: hn.dxmax2.com, port: 17217, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_76, server: gy.feethree.top, port: 42529, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.ga}, udp: true}
+  - {name: Tg@feixiang7524||节点_77, server: bgp.hofhasharon.org, port: 38015, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_78, server: hnyd.xxcv.cc, port: 20110, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_79, server: gzbgp.gkdnode.top, port: 21817, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_80, server: jpcu.dfnode.top, port: 19310, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_81, server: gzyd.qlyun.xyz, port: 46543, type: ss, cipher: aes-256-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_82, server: gy.hofhasharon.org, port: 37015, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_83, server: ie2f0fe2b041529d.404sx.com, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_84, server: gzyd2.xxcv.cc, port: 20020, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_85, server: hn.dxmax2.com, port: 41205, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_86, server: hn.dxmax2.com, port: 17208, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_87, server: gy3.anoob.icu, port: 34274, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy3.anoob.icu}, udp: true}
+  - {name: Tg@feixiang7524||节点_88, server: gkdcm.gkdnode.top, port: 21801, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_89, server: 120.241.236.150, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_90, server: www.anlocl.gq, port: 30521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_91, server: gy.hofhasharon.org, port: 37014, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_92, server: gkdcm1.gkdnode.top, port: 21801, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_93, server: 120.241.236.150, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_94, server: bgp.hofhasharon.org, port: 38005, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_95, server: 120.241.236.150, port: 53102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_96, server: iplc.qimengsdf.ml, port: 55477, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_97, server: 120.241.236.150, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_98, server: 120.241.236.152, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_99, server: hn.dxmax2.com, port: 17200, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_100, server: 120.241.236.152, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_101, server: iepl.qimengsdf.ml, port: 39136, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_102, server: hn.dxmax2.com, port: 40010, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_103, server: gkdcu.gkdnode.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_104, server: gzyd1.xxcv.cc, port: 20050, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_105, server: gy.anoob.cc, port: 26505, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.anoob.cc}, udp: true}
+  - {name: Tg@feixiang7524||节点_106, server: zj.haojiahuo.ml, port: 30042, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_107, server: ie2f0fe2b041529d.404sx.com, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_108, server: gkdcm.gkdnode.top, port: 21823, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_109, server: bgp.hofhasharon.org, port: 38018, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_110, server: gzyd1.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_111, server: gy.hofhasharon.org, port: 37011, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_112, server: gy.hofhasharon.org, port: 37010, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_113, server: zf2.qimengsdf.ml, port: 52454, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_114, server: gzyd.qlyun.xyz, port: 57142, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_115, server: 47.241.233.124, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_116, server: gkdcm.gkdnode.top, port: 21809, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_117, server: 175.41.237.24, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_118, server: gy.hofhasharon.org, port: 37003, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_119, server: www.anlocl.gq, port: 10330, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.gq}, udp: true}
+  - {name: Tg@feixiang7524||节点_120, server: 141.11.170.21, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_121, server: hn.dxmax2.com, port: 17204, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_122, server: gzyd2.xxcv.cc, port: 20050, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_123, server: hn.dxmax2.com, port: 17206, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_124, server: www.anlocl.gq, port: 20521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_125, server: hnyd.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_126, server: gzyd.qlyun.xyz, port: 24212, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_127, server: zf2.qimengsdf.ml, port: 52455, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_128, server: public.network.encrypted.tunnel.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_129, server: Intranet.dedicated.line.monaiyun.top, port: 53101, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_130, server: gzyd.qlyun.xyz, port: 51411, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_131, server: zj.haojiahuo.ml, port: 30044, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_132, server: gkdcm.gkdnode.top, port: 21817, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_133, server: gzyd1.xxcv.cc, port: 20110, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_134, server: sgpcu.dfnode.top, port: 15733, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_135, server: hnyd.xxcv.cc, port: 20050, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_136, server: zf2.qimengsdf.ml, port: 27928, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_137, server: gkdcm.gkdnode.top, port: 21816, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_138, server: bgp.hofhasharon.org, port: 38019, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_139, server: gzyd.qlyun.xyz, port: 46101, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_140, server: 8.218.235.49, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.meizhiyuanya.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_141, server: gzyd2.xxcv.cc, port: 20040, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_142, server: gzbgp.gkdnode.top, port: 21816, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_143, server: hn.dxmax2.com, port: 36000, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_144, server: Intranet.dedicated.line.monaiyun.top, port: 53105, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_145, server: gkdcm.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_146, server: krcc4.feethree.top, port: 9038, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: krcc4.feethree.top, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_147, server: bgp.hofhasharon.org, port: 38003, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_148, server: lt.feethree.top, port: 10223, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: lt.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_149, server: Intranet.dedicated.line.monaiyun.top, port: 53103, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_150, server: 120.241.236.150, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_151, server: bgp.hofhasharon.org, port: 38014, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_152, server: gy.hofhasharon.org, port: 37001, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_153, server: sgpcu.dfnode.top, port: 19253, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_154, server: 120.241.236.150, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_155, server: 47.91.144.17, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_156, server: gy.anoob.cc, port: 29442, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.gq}, udp: true}
+  - {name: Tg@feixiang7524||节点_157, server: 120.241.236.152, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_158, server: gy.anoob.cc, port: 53419, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloac.gq}, udp: true}
+  - {name: Tg@feixiang7524||节点_159, server: zf2.qimengsdf.ml, port: 52453, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_160, server: sgpcu.dfnode.top, port: 15736, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_161, server: sgpcu.dfnode.top, port: 15735, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_162, server: bgp.hofhasharon.org, port: 38001, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_163, server: jpcu.dfnode.top, port: 19311, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_164, server: bgp.hofhasharon.org, port: 38009, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_165, server: gy.hofhasharon.org, port: 37002, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_166, server: gkdcu.gkdnode.top, port: 21813, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_167, server: gy.feethree.top, port: 36746, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gy.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_168, server: zf5.qimengsdf.ml, port: 46575, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_169, server: hnyd.xxcv.cc, port: 36660, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_170, server: 54.199.133.35, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_171, server: hnyd.xxcv.cc, port: 20060, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_172, server: iplc.qimengsdf.ml, port: 11465, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_173, server: iplc.qimengsdf.ml, port: 57493, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_174, server: 144.24.87.99, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_175, server: zj.haojiahuo.ml, port: 30046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_176, server: 35.78.118.63, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_177, server: Intranet.dedicated.line.monaiyun.top, port: 53106, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_178, server: 120.241.236.152, port: 52101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_179, server: otcu.dfnode.top, port: 19305, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_180, server: gkdcm.gkdnode.top, port: 21814, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_181, server: zj.haojiahuo.ml, port: 30029, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_182, server: hn.dxmax2.com, port: 17212, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hn.dxmax2.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_183, server: 144.24.90.94, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_184, server: gzbgp.gkdnode.top, port: 21814, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_185, server: hn.dxmax2.com, port: 36003, type: ss, cipher: chacha20-ietf-poly1305, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_186, server: hnyd.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_187, server: hacu.dfnode.top, port: 19302, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_188, server: gkdcm.gkdnode.top, port: 21815, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_189, server: sgpcm.dfnode.top, port: 15736, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_190, server: zj.haojiahuo.ml, port: 60136, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_191, server: hnyd.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_192, server: zj.haojiahuo.ml, port: 60046, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_193, server: hnyd.xxcv.cc, port: 36660, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: huayun.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_194, server: zj.haojiahuo.ml, port: 30077, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_195, server: 120.241.236.150, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_196, server: cn2.anoob.cc, port: 64787, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.cf}, udp: true}
+  - {name: Tg@feixiang7524||节点_197, server: gkdcu.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_198, server: Intranet.dedicated.line.monaiyun.top, port: 53108, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_199, server: gy.hofhasharon.org, port: 37009, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_200, server: gzyd1.xxcv.cc, port: 20140, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_201, server: bgp.hofhasharon.org, port: 38002, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_202, server: zf2.qimengsdf.ml, port: 40798, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_203, server: gy.hofhasharon.org, port: 37007, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_204, server: gkdcm.gkdnode.top, port: 21821, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_205, server: sgpcm.dfnode.top, port: 15733, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_206, server: cs.dfnode.top, port: 19255, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_207, server: gkdcu.gkdnode.top, port: 21812, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_208, server: lt.feethree.top, port: 46347, type: vmess, uuid: 5218d9b5-e17c-3577-95f3-5cd510620c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: lt.feethree.top}, udp: true}
+  - {name: Tg@feixiang7524||节点_209, server: hn.dxmax2.com, port: 17216, type: ss, cipher: aes-256-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_210, server: gzbgp.gkdnode.top, port: 21815, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_211, server: 144.24.69.60, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_212, server: gy.anoob.cc, port: 23600, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloac.cf}, udp: true}
+  - {name: Tg@feixiang7524||节点_213, server: gkdcm.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_214, server: gzyd.qlyun.xyz, port: 46087, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_215, server: gzyd2.xxcv.cc, port: 20060, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_216, server: 120.241.236.152, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_217, server: 23.99.119.36, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hkhgc?ed=2048", ws-headers: {Host: hkhgc.meizhiyuanya.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_218, server: 23.225.77.192, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_219, server: bgp.hofhasharon.org, port: 38004, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_220, server: iepl.qimengsdf.ml, port: 39627, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_221, server: bgp.hofhasharon.org, port: 38006, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_222, server: 23.225.77.226, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_223, server: gkdcm.gkdnode.top, port: 21822, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_224, server: 144.24.77.154, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_225, server: hkcm.dfnode.top, port: 19250, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_226, server: gzbgp.gkdnode.top, port: 21820, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_227, server: gzyd1.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_228, server: 23.225.77.187, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_229, server: jpcu.dfnode.top, port: 19306, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_230, server: gy.hofhasharon.org, port: 37004, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_231, server: jpcu.dfnode.top, port: 19307, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_232, server: zf2.qimengsdf.ml, port: 12953, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_233, server: gkdcu.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_234, server: cs.dfnode.top, port: 19301, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_235, server: 20.205.63.134, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_236, server: sgpcm.dfnode.top, port: 15732, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_237, server: hkt.xn--y8jhmm6gn.com, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hkt.xn--y8jhmm6gn.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_238, server: hn.dxmax2.com, port: 17218, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_239, server: gzyd2.xxcv.cc, port: 20140, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_240, server: 120.241.236.150, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_241, server: ie2f0fe2b041529d.404sx.com, port: 54101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_242, server: gzyd.qlyun.xyz, port: 45095, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_243, server: jpcu.dfnode.top, port: 19304, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_244, server: ot.dfnode.top, port: 19252, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_245, server: jpcu.dfnode.top, port: 19308, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_246, server: 120.241.236.150, port: 53101, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
+  - {name: Tg@feixiang7524||节点_247, server: www.anlocl.cf, port: 10330, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.cf}, udp: true}
+  - {name: Tg@feixiang7524||节点_248, server: gzbgp.gkdnode.top, port: 21819, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_249, server: zf3.qimengsdf.ml, port: 52457, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_250, server: jp.dfnode.top, port: 19301, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_251, server: 18.163.249.175, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.meizhiyuanya.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_252, server: hn.dxmax2.com, port: 17219, type: ss, cipher: aes-128-gcm, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, udp: true}
+  - {name: Tg@feixiang7524||节点_253, server: 172.104.244.36, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_254, server: hkcm.dfnode.top, port: 19251, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_255, server: cn2.anoob.cc, port: 42661, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocl.ga}, udp: true}
+  - {name: Tg@feixiang7524||节点_256, server: gkdcu.gkdnode.top, port: 21807, type: ss, cipher: chacha20-ietf-poly1305, password: b0eec1ba-c636-3b41-96a1-3363d0a04567, udp: true}
+  - {name: Tg@feixiang7524||节点_257, server: gzyd.qlyun.xyz, port: 46222, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_258, server: 23.225.77.222, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_259, server: hnyd.xxcv.cc, port: 20140, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_260, server: zj.haojiahuo.ml, port: 30043, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_261, server: jp.dfnode.top, port: 19255, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_262, server: Intranet.dedicated.line.monaiyun.top, port: 53107, type: vmess, uuid: 5bea4a9f-9c1f-355d-afd4-9ff3ee081143, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_263, server: gzyd2.xxcv.cc, port: 20080, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_264, server: gy.hofhasharon.org, port: 37016, type: ss, cipher: aes-128-gcm, password: afa84f0a-0267-4e6c-9704-7ff15122368c, udp: true}
+  - {name: Tg@feixiang7524||节点_265, server: gzyd2.xxcv.cc, port: 20070, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_266, server: zf3.qimengsdf.ml, port: 57651, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_267, server: au2-3.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_268, server: 192.9.183.183, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_269, server: zj.haojiahuo.ml, port: 30069, type: vmess, uuid: 0bff49b2-6e66-3572-897b-9d16ce612965, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}, udp: true}
+  - {name: Tg@feixiang7524||节点_270, server: hkcu.dfnode.top, port: 19250, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_271, server: otcu.dfnode.top, port: 19303, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_272, server: 103.173.155.72, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_273, server: 103.173.255.228, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_274, server: jpcm.dfnode.top, port: 19305, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_275, server: 3.112.55.68, port: 443, type: vmess, uuid: 71b785a5-2809-4d4c-ba85-4879f96e5c06, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/guolicheng/hinet?ed=2048", ws-headers: {Host: hinet.meizhiyuanya.xyz}, udp: true}
+  - {name: Tg@feixiang7524||节点_276, server: hkcm.dfnode.top, port: 19300, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_277, server: otcu.dfnode.top, port: 20001, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_278, server: 103.173.255.234, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_279, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_280, server: hkt.xn--y8jhmm6gn.com, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hkt.xn--y8jhmm6gn.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_281, server: 20.247.112.174, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_282, server: 103.173.255.21, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_283, server: 103.173.255.127, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_284, server: az.dxmax.xyz, port: 443, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: az.dxmax.xyz, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_285, server: iepl.qimengsdf.ml, port: 39703, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_286, server: hkt.dxmax2.com, port: 45678, type: trojan, password: 7de1f1e5-907d-426b-8e4d-51d46f6a4607, sni: hkt.dxmax2.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_287, server: cs.dfnode.top, port: 19259, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_288, server: jp.useanlo.cf, port: 10203, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_289, server: 155.248.162.12, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_290, server: gzyd1.xxcv.cc, port: 20060, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_291, server: hnyd.xxcv.cc, port: 20090, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_292, server: elcu.dfnode.top, port: 30002, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_293, server: gzyd2.xxcv.cc, port: 20090, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: gzyd2.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_294, server: gy.anoob.cc, port: 24326, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anloa.tk}, udp: true}
+  - {name: Tg@feixiang7524||节点_295, server: 139.162.124.250, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_296, server: ddns-cmhk.back-fp.icu, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: ddns-cmhk.back-fp.icu, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_297, server: jpcu.dfnode.top, port: 19309, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_298, server: gzyd.qlyun.xyz, port: 35569, type: ss, cipher: aes-128-gcm, password: f9721e2e-3a91-418e-b57a-e0e801aced42, udp: true}
+  - {name: Tg@feixiang7524||节点_299, server: ot.dfnode.top, port: 19256, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_300, server: sgpcm.dfnode.top, port: 15735, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_301, server: jp.useanlo.cf, port: 6523, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_302, server: lt.feethree.top, port: 38358, type: vmess, uuid: 6efebf2f-e675-4798-a3f0-c9b225701800, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.anlocm.ga}, udp: true}
+  - {name: Tg@feixiang7524||节点_303, server: 172.104.251.52, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_304, server: iplc.qimengsdf.ml, port: 17896, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_305, server: zf3.qimengsdf.ml, port: 26982, type: vmess, uuid: 921d95a5-32a8-4ce7-8b2e-d169252bc0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_306, server: elcu.dfnode.top, port: 20000, type: vmess, uuid: bc6ce8aa-a8b3-3e8f-8d45-979586ed2e79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/mengge88888888}, udp: true}
+  - {name: Tg@feixiang7524||节点_307, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点_308, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 有效期：2022-12-31, server: au2-2.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -484,6 +557,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: ♻️ 自动选择
     type: url-test
@@ -726,6 +872,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: 🎥 NETFLIX
     type: select
@@ -969,6 +1188,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: ⛔️ 广告拦截
     type: select
@@ -1224,6 +1516,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: 🌏 国内媒体
     type: select
@@ -1471,6 +1836,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: 📲 电报信息
     type: select
@@ -1713,6 +2151,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: 🍎 苹果服务
     type: select
@@ -1956,6 +2467,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
   - name: 🎯 全球直连
     type: select
@@ -2208,6 +2792,79 @@ proxy-groups:
       - Tg@feixiang7524||节点_233
       - Tg@feixiang7524||节点_234
       - Tg@feixiang7524||节点_235
+      - Tg@feixiang7524||节点_236
+      - Tg@feixiang7524||节点_237
+      - Tg@feixiang7524||节点_238
+      - Tg@feixiang7524||节点_239
+      - Tg@feixiang7524||节点_240
+      - Tg@feixiang7524||节点_241
+      - Tg@feixiang7524||节点_242
+      - Tg@feixiang7524||节点_243
+      - Tg@feixiang7524||节点_244
+      - Tg@feixiang7524||节点_245
+      - Tg@feixiang7524||节点_246
+      - Tg@feixiang7524||节点_247
+      - Tg@feixiang7524||节点_248
+      - Tg@feixiang7524||节点_249
+      - Tg@feixiang7524||节点_250
+      - Tg@feixiang7524||节点_251
+      - Tg@feixiang7524||节点_252
+      - Tg@feixiang7524||节点_253
+      - Tg@feixiang7524||节点_254
+      - Tg@feixiang7524||节点_255
+      - Tg@feixiang7524||节点_256
+      - Tg@feixiang7524||节点_257
+      - Tg@feixiang7524||节点_258
+      - Tg@feixiang7524||节点_259
+      - Tg@feixiang7524||节点_260
+      - Tg@feixiang7524||节点_261
+      - Tg@feixiang7524||节点_262
+      - Tg@feixiang7524||节点_263
+      - Tg@feixiang7524||节点_264
+      - Tg@feixiang7524||节点_265
+      - Tg@feixiang7524||节点_266
+      - Tg@feixiang7524||节点_267
+      - Tg@feixiang7524||节点_268
+      - Tg@feixiang7524||节点_269
+      - Tg@feixiang7524||节点_270
+      - Tg@feixiang7524||节点_271
+      - Tg@feixiang7524||节点_272
+      - Tg@feixiang7524||节点_273
+      - Tg@feixiang7524||节点_274
+      - Tg@feixiang7524||节点_275
+      - Tg@feixiang7524||节点_276
+      - Tg@feixiang7524||节点_277
+      - Tg@feixiang7524||节点_278
+      - Tg@feixiang7524||节点_279
+      - Tg@feixiang7524||节点_280
+      - Tg@feixiang7524||节点_281
+      - Tg@feixiang7524||节点_282
+      - Tg@feixiang7524||节点_283
+      - Tg@feixiang7524||节点_284
+      - Tg@feixiang7524||节点_285
+      - Tg@feixiang7524||节点_286
+      - Tg@feixiang7524||节点_287
+      - Tg@feixiang7524||节点_288
+      - Tg@feixiang7524||节点_289
+      - Tg@feixiang7524||节点_290
+      - Tg@feixiang7524||节点_291
+      - Tg@feixiang7524||节点_292
+      - Tg@feixiang7524||节点_293
+      - Tg@feixiang7524||节点_294
+      - Tg@feixiang7524||节点_295
+      - Tg@feixiang7524||节点_296
+      - Tg@feixiang7524||节点_297
+      - Tg@feixiang7524||节点_298
+      - Tg@feixiang7524||节点_299
+      - Tg@feixiang7524||节点_300
+      - Tg@feixiang7524||节点_301
+      - Tg@feixiang7524||节点_302
+      - Tg@feixiang7524||节点_303
+      - Tg@feixiang7524||节点_304
+      - Tg@feixiang7524||节点_305
+      - Tg@feixiang7524||节点_306
+      - Tg@feixiang7524||节点_307
+      - Tg@feixiang7524||节点_308
       - 有效期：2022-12-31
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
