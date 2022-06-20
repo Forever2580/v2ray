@@ -5,34 +5,20 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Tg@feixiang7524||节点, server: ahyd.jiantian.xyz, port: 19139, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 2, server: ahyd.jiantian.xyz, port: 25772, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 3, server: ahyd.jiantian.xyz, port: 12042, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 4, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: Tg@feixiang7524||节点 5, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
-  - {name: Tg@feixiang7524||节点 6, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 7, server: 116.129.254.29, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 8, server: 116.129.254.29, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 9, server: 116.129.254.29, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 10, server: 116.129.253.187, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 11, server: 116.129.253.187, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 12, server: tj-hk02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-hk02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 13, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn1.myuuusss.com}, udp: true}
-  - {name: Tg@feixiang7524||节点 14, server: cm-gz.okvpn.xyz, port: 20000, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 15, server: ahyd.jiantian.xyz, port: 16939, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 16, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 17, server: shyd.ddnsguru.com, port: 58777, type: vmess, uuid: 67d81d00-66de-3f68-91c6-0ac560181418, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shyd.ddnsguru.com}, udp: true}
-  - {name: Tg@feixiang7524||节点 18, server: 116.129.254.29, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 19, server: ahyd.jiantian.xyz, port: 19680, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 20, server: ahyd.jiantian.xyz, port: 37481, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 21, server: ahyd.jiantian.xyz, port: 23297, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 22, server: cm-gz.okvpn.xyz, port: 20005, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 23, server: ahyd.jiantian.xyz, port: 50975, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 24, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 25, server: ahyd.jiantian.xyz, port: 48814, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 26, server: ahyd.jiantian.xyz, port: 15475, type: trojan, password: 8b0982e4-bf59-41c0-b25e-cd314d2f99ef, sni: ahyd.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 27, server: 116.129.253.187, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: Tg@feixiang7524||节点 28, server: us-c1.myuuusss.com, port: 23223, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-c1.myuuusss.com}, udp: true}
+  - {name: Tg@feixiang7524||节点, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: Tg@feixiang7524||节点 2, server: us-c1.myuuusss.com, port: 23223, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us-c1.myuuusss.com}, udp: true}
+  - {name: Tg@feixiang7524||节点 3, server: 23.225.77.192, port: 28443, type: trojan, password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 4, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 5, server: cdn2.myuuusss.com, port: 20111, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: Tg@feixiang7524||节点 6, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 7, server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 8, server: cdn1.myuuusss.com, port: 32118, type: vmess, uuid: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn1.myuuusss.com}, udp: true}
+  - {name: Tg@feixiang7524||节点 9, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 10, server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 11, server: cdn1.myuuusss.com, port: 30031, type: ss, cipher: chacha20-ietf-poly1305, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: Tg@feixiang7524||节点 12, server: cdn2.myuuusss.com, port: 20098, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
+  - {name: Tg@feixiang7524||节点 13, server: 133.167.106.55, port: 33115, type: vmess, uuid: 3a610ada-a699-4d6e-8140-7629febc6e51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Tg@feixiang7524||节点 14, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: 8bc68e0d-3c27-4ecd-8672-4824cb7eab2b, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -53,20 +39,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -86,20 +58,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -120,20 +78,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -166,20 +110,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -204,20 +134,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: 📲 电报信息
     type: select
     proxies:
@@ -237,20 +153,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -271,20 +173,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -314,20 +202,6 @@ proxy-groups:
       - Tg@feixiang7524||节点 12
       - Tg@feixiang7524||节点 13
       - Tg@feixiang7524||节点 14
-      - Tg@feixiang7524||节点 15
-      - Tg@feixiang7524||节点 16
-      - Tg@feixiang7524||节点 17
-      - Tg@feixiang7524||节点 18
-      - Tg@feixiang7524||节点 19
-      - Tg@feixiang7524||节点 20
-      - Tg@feixiang7524||节点 21
-      - Tg@feixiang7524||节点 22
-      - Tg@feixiang7524||节点 23
-      - Tg@feixiang7524||节点 24
-      - Tg@feixiang7524||节点 25
-      - Tg@feixiang7524||节点 26
-      - Tg@feixiang7524||节点 27
-      - Tg@feixiang7524||节点 28
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
