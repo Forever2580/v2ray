@@ -5,36 +5,37 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"{\"Host\":\"www.ivpnpro.net\"}"}},"server":"ingress-i2.iivvppnn.info","port":38106,"uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿2","server":"103.173.155.72","port":38000,"password":"3a9e795f-aeeb-4f15-abd6-3eeeb2f758ed","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿3","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"20.239.179.251\"}"}},"server":"20.239.179.251","port":50045,"uuid":"81e1d228-6d1a-4212-b45f-2abe61fc3791","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿4","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"20.239.179.251\"}"}},"server":"20.239.179.251","port":50044,"uuid":"a12e496e-f89a-434a-8011-108846f0e412","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿5","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"20.239.179.251\"}"}},"server":"20.239.179.251","port":50045,"uuid":"a12e496e-f89a-434a-8011-108846f0e412","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿6","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"{\"Host\":\"douyincdn.com\"}"}},"server":"v2.tgfaka.com","port":48443,"uuid":"ec3e47e9-8dd7-4302-aa1a-a5658d34e931","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿7","server":"103.253.43.228","port":38000,"password":"3a9e795f-aeeb-4f15-abd6-3eeeb2f758ed","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿8","ws-opts":{"path":"/youtbue@bai-piao-wang-zhe_vws","headers":{"host":"{\"Host\":\"usa23.884899.cf\"}"}},"server":"www.digitalocean.com","port":443,"uuid":"3df66137-a428-429c-a858-8b150721b354","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿19","server":"cu-cs.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿20","server":"cm-gz.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿1","server":"cm-gz.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿3","server":"cu-cs.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿4","server":"cm-gz.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿14","server":"cm-gz.okvpn.xyz","port":20003,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿15","server":"cm-gz.okvpn.xyz","port":20003,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿29","server":"cu-cs.okvpn.xyz","port":20003,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿5","server":"cm-gz.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿6","server":"cu-cs.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿8","server":"cm-gz.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿12","server":"bgphk1.vip.www.klrxyru.cn","port":574,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mtbv8n","obfs-param":"WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA","protocol-param":"84393:25lGIs"}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿30_1","server":"aiajp1.game.www.klrxyru.cn","port":1460,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mtbv8n","obfs-param":"WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA","protocol-param":"84393:25lGIs"}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿9","server":"jpsb10.mellanox.info","port":25104,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"zftvha","obfs-param":"V2tjNU0ySnRlSFpaVjFGMVpESnNkVnBIT1ROak0xWjNXa2RHTUZwVE5XcGlNakE"}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿10","server":"ir01.clashcloud.tech","port":51050,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"VCAAuH","obfs-param":"V2tjNU0ySnRlSFpaVjFGMVpESnNkVnBIT1ROak0xWjNXa2RHTUZwVE5XcGlNakE"}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿11","server":"ca01.mellanox.info","port":25104,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"zftvha","obfs-param":"V2tjNU0ySnRlSFpaVjFGMVpESnNkVnBIT1ROak0xWjNXa2RHTUZwVE5XcGlNakE"}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿30_2","server":"aiajp1.game.www.klrxyru.cn","port":1460,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mtbv8n","obfs-param":"V1dwUmVscFVUWGhOZVRVelltNU5kV1F5YkhWYVJ6a3pZM2sxYW1JeU1B","protocol-param":"84393:25lGIs"}
+  - {"type":"ssr","name":"Tg@feixiang7524||节点＿26","server":"relayjp2.vip.www.klrxyru.cn","port":1452,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mtbv8n","obfs-param":"V1dwUmVscFVUWGhOZVRVelltNU5kV1F5YkhWYVJ6a3pZM2sxYW1JeU1B","protocol-param":"84393:25lGIs"}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿21","server":"cu-cs.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿24","server":"cm-gz.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿22","server":"cu-cs.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿20","server":"cm-gz.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿24","server":"cm-gz.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿19","server":"cu-cs.okvpn.xyz","port":20000,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿2","server":"103.173.155.72","port":38000,"password":"3a9e795f-aeeb-4f15-abd6-3eeeb2f758ed","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿23","server":"cm-gz.okvpn.xyz","port":20003,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿25","server":"cm-gz.okvpn.xyz","port":20003,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿16","server":"cm-gz.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿17","server":"cu-cs.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿16","server":"cm-gz.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿18","server":"cm-gz.okvpn.xyz","port":20009,"password":"7634f5a1-812f-4f6d-a7a4-8079e3b92c2b","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿10","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"su5.chaoxn.top\"}"}},"server":"su5.chaoxn.top","port":80,"uuid":"9e4a7268-4c66-49d9-b6fb-59e33c8c7c59","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿11","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"su1.chaoxn.top\"}"}},"server":"su1.chaoxn.top","port":80,"uuid":"9e4a7268-4c66-49d9-b6fb-59e33c8c7c59","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿12","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"su10.chaoxn.top\"}"}},"server":"su10.chaoxn.top","port":80,"uuid":"9e4a7268-4c66-49d9-b6fb-59e33c8c7c59","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿9","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"20.239.179.251\"}"}},"server":"20.239.179.251","port":50045,"uuid":"d386e77a-e38a-4954-a112-83e88dd00f2e","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿13","server":"103.173.255.127","port":28000,"password":"f5f239fc-d21a-45ba-aeaf-b137d7d730a6","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿14","ws-opts":{"path":"/","headers":{"host":"{\"Host\":\"su11.chaoxn.top\"}"}},"server":"su11.chaoxn.top","port":80,"uuid":"9e4a7268-4c66-49d9-b6fb-59e33c8c7c59","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tg@feixiang7524||节点＿15","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"{\"Host\":\"ingress-i1.onebox6.org\"}"}},"server":"ingress-i1.onebox6.org","port":38106,"uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":0,"cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"Tg@feixiang7524||节点＿27","server":"103.173.255.234","port":28000,"password":"f5f239fc-d21a-45ba-aeaf-b137d7d730a6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Tg@feixiang7524||节点＿28","server":"103.173.255.21","port":28000,"password":"f5f239fc-d21a-45ba-aeaf-b137d7d730a6","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"Tg@feixiang7524||节点＿26","server":"relayjp2.vip.www.klrxyru.cn","port":1452,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mtbv8n","obfs-param":"WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA","protocol-param":"84393:25lGIs"}
-  - {"type":"ssr","name":"Tg@feixiang7524||节点＿29","server":"jpsb02.mellanox.info","port":25104,"protocol":"origin","cipher":"rc4-md5","obfs":"http_simple","password":"zftvha","obfs-param":"V2tjNU0ySnRlSFpaVjFGMVpESnNkVnBIT1ROak0xWjNXa2RHTUZwVE5XcGlNakE"}
-  - {"type":"ssr","name":"Tg@feixiang7524||节点＿30","server":"aiajp1.game.www.klrxyru.cn","port":1460,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mtbv8n","obfs-param":"WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA","protocol-param":"84393:25lGIs"}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿27","server":"103.173.255.234","port":28000,"password":"f5f239fc-d21a-45ba-aeaf-b137d7d730a6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Tg@feixiang7524||节点＿7","server":"103.253.43.228","port":38000,"password":"3a9e795f-aeeb-4f15-abd6-3eeeb2f758ed","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -42,35 +43,36 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -78,35 +80,36 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -114,140 +117,144 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -271,35 +278,36 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - Tg@feixiang7524||节点＿1
-      - Tg@feixiang7524||节点＿2
       - Tg@feixiang7524||节点＿3
       - Tg@feixiang7524||节点＿4
-      - Tg@feixiang7524||节点＿5
-      - Tg@feixiang7524||节点＿6
-      - Tg@feixiang7524||节点＿7
-      - Tg@feixiang7524||节点＿8
-      - Tg@feixiang7524||节点＿19
-      - Tg@feixiang7524||节点＿20
-      - Tg@feixiang7524||节点＿21
-      - Tg@feixiang7524||节点＿24
-      - Tg@feixiang7524||节点＿22
-      - Tg@feixiang7524||节点＿23
-      - Tg@feixiang7524||节点＿25
-      - Tg@feixiang7524||节点＿16
-      - Tg@feixiang7524||节点＿17
-      - Tg@feixiang7524||节点＿18
-      - Tg@feixiang7524||节点＿10
-      - Tg@feixiang7524||节点＿11
-      - Tg@feixiang7524||节点＿12
-      - Tg@feixiang7524||节点＿9
-      - Tg@feixiang7524||节点＿13
       - Tg@feixiang7524||节点＿14
       - Tg@feixiang7524||节点＿15
-      - Tg@feixiang7524||节点＿27
-      - Tg@feixiang7524||节点＿28
-      - Tg@feixiang7524||节点＿26
       - Tg@feixiang7524||节点＿29
-      - Tg@feixiang7524||节点＿30
+      - Tg@feixiang7524||节点＿5
+      - Tg@feixiang7524||节点＿6
+      - Tg@feixiang7524||节点＿8
+      - Tg@feixiang7524||节点＿12
+      - Tg@feixiang7524||节点＿30_1
+      - Tg@feixiang7524||节点＿9
+      - Tg@feixiang7524||节点＿10
+      - Tg@feixiang7524||节点＿11
+      - Tg@feixiang7524||节点＿30_2
+      - Tg@feixiang7524||节点＿26
+      - Tg@feixiang7524||节点＿21
+      - Tg@feixiang7524||节点＿22
+      - Tg@feixiang7524||节点＿20
+      - Tg@feixiang7524||节点＿24
+      - Tg@feixiang7524||节点＿19
+      - Tg@feixiang7524||节点＿2
+      - Tg@feixiang7524||节点＿23
+      - Tg@feixiang7524||节点＿25
+      - Tg@feixiang7524||节点＿17
+      - Tg@feixiang7524||节点＿16
+      - Tg@feixiang7524||节点＿18
+      - Tg@feixiang7524||节点＿13
+      - Tg@feixiang7524||节点＿28
+      - Tg@feixiang7524||节点＿27
+      - Tg@feixiang7524||节点＿7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
